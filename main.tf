@@ -5,6 +5,7 @@ resource "aws_instance" "ec2_instance" {
     tags = {Name = "HTTP_SERVER"}
     key_name = "devops"
     count = 1
+
 }
 }
 // Branch Rules
